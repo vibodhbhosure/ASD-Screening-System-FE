@@ -1,0 +1,6 @@
+.homeapp {
+    width: 100%;
+    height: 125rem;
+    background-image: url("../assets/background.svg");
+    margin-top: -90px;
+}
