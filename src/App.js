@@ -1,17 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar12 from "./components/Navbar12";
+import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home"
+import About from "./pages/About"
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar12 />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </>

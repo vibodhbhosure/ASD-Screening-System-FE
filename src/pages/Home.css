@@ -3,4 +3,21 @@
     height: 125rem;
     background-image: url("../assets/background.svg");
     margin-top: -90px;
+    text-align: center;
+}
+
+#title1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    /* margin-top: 10rem; */
+    padding-top: 100px;
+}
+
+.tex-center {
+    text-align: center;
+}
+
+.tex-justify {
+    text-align: justify;
 }

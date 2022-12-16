@@ -18,7 +18,13 @@ function Navbar12() {
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link href="./">Home</Nav.Link>
-            <Nav.Link href="./Location">Location</Nav.Link>
+            <Nav.Link
+              href="https://vibodhbhosure.github.io/Secondary-Site-for-Autism-System/"
+              target="_blank"
+            >
+              Know More
+            </Nav.Link>
+            <Nav.Link href="./about">About Us</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
