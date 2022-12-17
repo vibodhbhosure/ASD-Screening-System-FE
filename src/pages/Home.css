@@ -12,6 +12,7 @@
     color: #fff;
     /* margin-top: 10rem; */
     padding-top: 100px;
+    margin-bottom: 50px;
 }
 
 .tex-center {
@@ -20,4 +21,15 @@
 
 .tex-justify {
     text-align: justify;
+}
+
+.label-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.col-md {
+    margin-bottom: 2.5rem;
 }

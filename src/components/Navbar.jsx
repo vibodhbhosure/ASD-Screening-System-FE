@@ -17,7 +17,9 @@ function Navbar12() {
             <img src={logo} alt="IOT" style={{ marginRight: "1.25rem" }} />
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="./">Home</Nav.Link>
+            <Nav.Link active href="./">
+              Home
+            </Nav.Link>
             <Nav.Link
               href="https://vibodhbhosure.github.io/Secondary-Site-for-Autism-System/"
               target="_blank"
