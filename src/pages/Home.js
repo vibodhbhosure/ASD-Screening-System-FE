@@ -78,9 +78,6 @@ function Home() {
     };
 
     let answer = `${q1},${q2},${q3},${q4},${q5},${q6},${q7},${q8},${q9},${q10},${age},${sex},${ethnicity},${childjaundice},${familyjaundice}`;
-    console.log(answer);
-
-    console.log(algo);
 
     let baseUrl = `https://autism-detection-system.onrender.com/api/algo/${algo}/data/${answer}`;
 
@@ -98,8 +95,6 @@ function Home() {
     function closeOverlay() {
         document.getElementById("hidden").style.display = "none";
     }
-
-    console.log(data);
 
     return (
         <div>
