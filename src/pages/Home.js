@@ -86,10 +86,21 @@ function Home() {
         setsubmitButtonText("Predicting...");
         await axios.get(baseUrl).then((response) => {
             setdata(response.data);
+            document.getElementById("hidden").style.display = "block";
+            setsubmitButton(true)
+            setsubmitButtonText("Predict");
+        }).catch((error) => {
+            if (error.response.status === 500) {
+                window.alert("Please fill out the complete data!");
+                return;
+            }
+            else {
+                window.alert("Error Occured! " + error);
+            }
+        }).finally(() => {
+            setsubmitButton(true);
+            setsubmitButtonText("Predict");
         });
-        document.getElementById("hidden").style.display = "block";
-        setsubmitButton(true)
-        setsubmitButtonText("Predict");
     }
 
     function closeOverlay() {

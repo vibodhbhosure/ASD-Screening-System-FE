@@ -4,7 +4,24 @@ import "./About.css";
 function About() {
 
     return (
-        <h1>This is About Us.</h1>
+        <div>
+            <div className="jumbotron homeapp texcenter">
+                <div>
+                    <h1 id="title1">About Us</h1>
+                </div>
+                <hr />
+                <div>
+                    <p id="title2">We are a team of developers who are passionate about creating new and innovative applications.</p>
+                    <p id="title2" style={{ textDecoration: "underline" }}>Team Members:</p>
+                    <p id="title2">Renuka Patwari</p>
+                    <p id="title2">Suyog Havare</p>
+                    <p id="title2">Vibodh Bhosure</p>
+                    <p id="title2">Yash Jagdale</p>
+                    <p id="title2" style={{ textDecoration: "underline" }}>Mentor/Guide:</p>
+                    <p id="title2">Prof. Divya Surve</p>
+                </div>
+            </div>
+        </div>
     );
 }
 
