@@ -26,7 +26,9 @@ function Navbar12() {
             >
               Know More
             </Nav.Link>
-            <Nav.Link href="./about">About Us</Nav.Link>
+            <Nav.Link disabled href="./about">
+              About Us
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
