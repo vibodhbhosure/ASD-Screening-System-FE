@@ -283,7 +283,7 @@ function Home() {
                             <div>
                                 <p>Enter child age in months:</p>
                                 <p>&nbsp;</p>
-                                <input type="text" placeholder="Enter Age..." className="form-control" value={age} onChange={handleChangeage} />
+                                <input type="number" placeholder="Enter Age..." className="form-control" value={age} onChange={handleChangeage} />
 
                             </div>
                         </div>
