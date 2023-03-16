@@ -19,9 +19,12 @@ function About() {
                     <p id="title2">Yash Jagdale</p>
                     <p id="title2" style={{ textDecoration: "underline" }}>Mentor/Guide:</p>
                     <p id="title2">Prof. Divya Surve</p>
+                    <p id="title2" style={{ textDecoration: "underline" }}>Affiliation:</p>
+                    <p id="title2">Computer Engineering Department</p>
+                    <p id="title2">Vidyalankar Institute of Technology, Mumbai</p>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
